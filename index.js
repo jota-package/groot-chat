@@ -24,4 +24,8 @@ function cantar (mensaje){
 	return cancion;
 }
 
-module.exports.Groot = groot;
+module.exports.Groot = {
+	pedirConsejo,
+	responder,
+	cantar
+};
