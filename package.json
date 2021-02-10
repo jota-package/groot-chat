@@ -1,0 +1,22 @@
+{
+  "name": "groot-chat",
+  "version": "1.0.0",
+  "description": "Chat de conversacion con Groot en español",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jota-package/groot-chat.git"
+  },
+  "keywords": [
+    "groot"
+  ],
+  "author": "Juan Basilio <juan@wydnex.com>",
+  "license": "SEE LICENSE IN <LICENSE.md>",
+  "bugs": {
+    "url": "https://github.com/jota-package/groot-chat/issues"
+  },
+  "homepage": "https://github.com/jota-package/groot-chat#readme"
+}
