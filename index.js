@@ -24,7 +24,7 @@ function cantar (mensaje){
 	return cancion;
 }
 
-module.exports.Groot = {
+module.exports = {
 	pedirConsejo,
 	responder,
 	cantar

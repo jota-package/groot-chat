@@ -1,6 +1,6 @@
 {
   "name": "groot-chat",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Chat de conversacion con Groot en español",
   "main": "index.js",
   "scripts": {
