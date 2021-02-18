@@ -1,4 +1,4 @@
-const lista_respuestas = ["Yo soy Groot.", "Yo, soy Groot", "Yo soy. Groot", "Yo soy Groot!", "Yooo, soy groot"];
+const lista_respuestas = ["Yo soy Groot.", "Yo, soy Groot", "Yo soy. Groot", "Yo soy Groot!", "Yooo, soy groot", "I am groot"];
 
 function procesar_respuesta ($mensaje) {
 	let posicion = Math.floor(Math.random() * (lista_respuestas.length - 1));
