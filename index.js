@@ -1,3 +1,6 @@
+const fileConverter = require('./src/Controllers/fileConverter.controller');
+const tablaData = require('./src/Controllers/tablaData.controller');
+const {preguntar} = require("./src/Controllers/charla");
 const lista_respuestas = ["Yo soy Groot.", "Yo, soy Groot", "Yo soy. Groot", "Yo soy Groot!", "Yooo, soy groot", "I am groot"];
 
 function procesar_respuesta ($mensaje) {
@@ -27,5 +30,8 @@ function cantar (mensaje){
 module.exports = {
 	pedirConsejo,
 	responder,
-	cantar
+	cantar,
+	preguntar,
+	fileConverter,
+	tablaData
 };
